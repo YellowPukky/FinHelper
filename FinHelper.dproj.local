@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.043,D:\a3v\Work\FinHelper\FinHelper\Unit1.dfm=D:\a3v\Work\FinHelper\FinHelper\Forms\CategoryListFrm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.813,D:\a3v\Work\FinHelper\FinHelper\Unit1.dfm=D:\a3v\Work\FinHelper\FinHelper\Forms\CategoryListFrm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.145,D:\a3v\Work\FinHelper\FinHelper\Unit1.dfm=D:\a3v\Work\FinHelper\FinHelper\Forms\CardListFrm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.501,D:\a3v\Work\FinHelper\FinHelper\FinHelper.dproj=C:\Users\vinogradov-aa\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.891,D:\a3v\Work\FinHelper\FinHelper\Forms\CategoryListFrm.dfm=D:\a3v\Work\FinHelper\FinHelper\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.948,D:\a3v\Work\FinHelper\FinHelper\Forms\MainFrm.dfm=C:\Users\vinogradov-aa\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.021,D:\a3v\Work\FinHelper\FinHelper\Unit1.pas=D:\a3v\Work\FinHelper\FinHelper\Modules\TComboboxAdapter.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.147,D:\a3v\Work\FinHelper\FinHelper\Unit1.dfm=D:\a3v\Work\FinHelper\FinHelper\Forms\DMUnt.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.430,D:\a3v\Work\FinHelper\FinHelper\Unit1.dfm=D:\a3v\Work\FinHelper\FinHelper\Forms\TTableRecFrm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.198,D:\a3v\Work\FinHelper\FinHelper\Unit1.dfm=D:\a3v\Work\FinHelper\FinHelper\Forms\OrderRecordFrm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.422,D:\a3v\Work\FinHelper\FinHelper\Forms\CardRecordFrm.dfm=D:\a3v\Work\FinHelper\FinHelper\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.784,D:\a3v\Work\FinHelper\FinHelper\Unit1.dfm=D:\a3v\Work\FinHelper\FinHelper\Forms\OrderListFrm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.375,D:\a3v\Work\FinHelper\FinHelper\Unit1.dfm=D:\a3v\Work\FinHelper\FinHelper\Forms\CategoryListFrm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.287,D:\a3v\Work\FinHelper\FinHelper\Unit1.dfm=D:\a3v\Work\FinHelper\FinHelper\Forms\OrdLineRecordFrm.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.810,D:\a3v\Work\FinHelper\FinHelper\Unit1.dfm=D:\a3v\Work\FinHelper\FinHelper\Forms\TableListFrm.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

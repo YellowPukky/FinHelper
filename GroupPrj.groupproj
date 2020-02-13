@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{E81D8274-C39B-422D-ADBC-5B0245F5047D}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="FinHelper.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="UnitTest\FinHelperTests.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="TestPrjDX\TestPrj.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="FinHelper">
+        <MSBuild Projects="FinHelper.dproj"/>
+    </Target>
+    <Target Name="FinHelper:Clean">
+        <MSBuild Projects="FinHelper.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FinHelper:Make">
+        <MSBuild Projects="FinHelper.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FinHelperTests">
+        <MSBuild Projects="UnitTest\FinHelperTests.dproj"/>
+    </Target>
+    <Target Name="FinHelperTests:Clean">
+        <MSBuild Projects="UnitTest\FinHelperTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FinHelperTests:Make">
+        <MSBuild Projects="UnitTest\FinHelperTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TestPrj">
+        <MSBuild Projects="TestPrjDX\TestPrj.dproj"/>
+    </Target>
+    <Target Name="TestPrj:Clean">
+        <MSBuild Projects="TestPrjDX\TestPrj.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TestPrj:Make">
+        <MSBuild Projects="TestPrjDX\TestPrj.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="FinHelper;FinHelperTests;TestPrj"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="FinHelper:Clean;FinHelperTests:Clean;TestPrj:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="FinHelper:Make;FinHelperTests:Make;TestPrj:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
